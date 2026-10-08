@@ -63,7 +63,8 @@ int main()
     std::cout << "How many Youth? ";
     std::cin >> TotalYouth; 
     //calulashons/ print off camands
-    if (TotalCars= true);
+    if (TotalCars= true)
+
     {
         TotalCost=CostPCar+(CostPAdult*(TotalAdults-1))+(TotalSinor_Disability*CostPSenior_Disability)+(TotalYouth*CostPYouth);
         std::cout <<"one Car $"<< CostPCar<< std::endl;
@@ -72,7 +73,8 @@ int main()
         std::cout <<"Total Youth $"<<(TotalYouth*CostPYouth)<< std::endl;
         std::cout <<"Your Total $"<< TotalCost << std::endl;
     }
-    else if(TotalCars= false);
+
+    else if(TotalCars= false)
     {
         TotalCost=(CostPAdult*TotalAdults)+(TotalSinor_Disability*CostPSenior_Disability)+(TotalYouth*CostPYouth)+(TotalBike*CostPBike);
         std::cout <<"Total Bikes $"<< (TotalBike*CostPBike)<< std::endl;
